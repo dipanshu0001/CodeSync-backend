@@ -6,7 +6,7 @@ const http = require('http');
 
 const { Server } = require('socket.io');//here we are importing server class
 
-const ACTIONS = require('../src/Actions');
+const ACTIONS = require('./Actions');
 
 const server = http.createServer(app);
 
